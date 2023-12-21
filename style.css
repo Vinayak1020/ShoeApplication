@@ -185,7 +185,7 @@ section .main .button:hover i{
     width: 100%;
     height: 140vh;
     padding: 25px 0;
-    background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7);
+    /* background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7); */
 
 }
 
@@ -309,7 +309,7 @@ section .main .button:hover i{
     height: 100vh;
     padding: 35px ;
     margin-top: 30px;
-    background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7);
+    /* background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7); */
 
 }
 
@@ -435,7 +435,7 @@ section .main .button:hover i{
     width: 100%;
     height: 100vh;
     padding-top: 80px;
-    background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7);
+    /* background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7); */
 
 }
 

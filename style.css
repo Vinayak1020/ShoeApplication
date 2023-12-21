@@ -383,7 +383,7 @@ section .main .button:hover i{
     border: 3px solid #111111;
     border-radius: 20px;
     height: 430px;
-    width: 300%;
+    /* width: 300%; */
     padding: 40px;
     box-shadow: 0 0 8px #0f0f0f;
     background: linear-gradient(to right, #f4f2f6 , #707070);

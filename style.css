@@ -378,6 +378,10 @@ section .main .button:hover i{
     display: flex;
     
 }
+/* .image_contaner{
+
+    position: ;
+} */
 
 .about .about_main .image_contaner img{
     border: 3px solid #111111;
@@ -1023,4 +1027,8 @@ footer .footer_main .tag .search_bar button{
     font-size: Bolder;
     background: linear-gradient(to right, #e9e5e8,#f1ecf7,#efe8f7);
 
+  }
+  .marquee2
+  {
+    background-color: white;
   }

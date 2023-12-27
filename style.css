@@ -1032,3 +1032,58 @@ footer .footer_main .tag .search_bar button{
   {
     background-color: white;
   }
+
+
+  .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 45vh;
+}
+
+.slider {
+	height: 565px;
+	margin: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.slider .slide-track {
+	-webkit-animation: scroll 5s linear infinite;
+	animation: scroll 45s linear infinite;
+	display: flex;
+	width: calc(250px * 14);
+}
+
+.slider .slide {
+	height: 250px;
+	width: 250px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.slider .slide img {
+  width: 92%;
+	height: 250px;
+	border-radius: 10px;
+	border: 2px solid #bbbbbb;
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-250px * 7));
+	}
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-250px * 7));
+	}
+}
